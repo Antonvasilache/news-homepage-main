@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <div class="container body">
+        <div class="overlay hidden"></div>
+        <div class="mobile-menu hidden">
+          <div class="mobile-menu-sub">
+            <img
+              src="/assets/images/icon-menu-close.svg"
+              class="menu-img-close"
+            />
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">Home</li>
+              <li class="mobile-menu-item">New</li>
+              <li class="mobile-menu-item">Popular</li>
+              <li class="mobile-menu-item">Trending</li>
+              <li class="mobile-menu-item">Categories</li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="/assets/images/logo.svg" alt="W logo" class="logo-img" />
+          </div>
+          <nav class="navbar">
+            <button class="menu-button">
+              <img
+                src="/assets/images/icon-menu.svg"
+                alt="Menu icon"
+                class="menu-img"
+              />
+            </button>
+            <ul class="navbar-list">
+              <li class="navbar-element" tabindex="0">Home</li>
+              <li class="navbar-element" tabindex="0">New</li>
+              <li class="navbar-element" tabindex="0">Popular</li>
+              <li class="navbar-element" tabindex="0">Trending</li>
+              <li class="navbar-element" tabindex="0">Categories</li>
+            </ul>
+          </nav>
+        </div>
+        <main class="content">
+          <article class="article">
+            <div class="article-img-container">
+              <img
+                src="/assets/images/image-web-3-desktop.jpg"
+                alt="Toy building blocks"
+                class="article-img"
+              />
+              <img
+                src="/assets/images/image-web-3-mobile.jpg"
+                alt="Toy building blocks"
+                class="article-img-mobile"
+              />
+            </div>
+            <section class="article-content">
+              <h1 class="article-header heading-xl">
+                The Bright Future of Web 3.0?
+              </h1>
+              <div class="article-subsection">
+                <p class="article-text">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button class="article-btn">Read more</button>
+              </div>
+            </section>
+          </article>
+          <aside class="aside-articles">
+            <h2 class="aside-header heading-l">New</h2>
+            <ul class="aside-list">
+              <li class="aside-element border-bottom">
+                <h3 class="aside-subheader heading-s">
+                  Hydrogen VS Electric Cars
+                </h3>
+                <p class="aside-text body">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </li>
+              <li class="aside-element border-bottom">
+                <h3 class="aside-subheader heading-s">
+                  The Downsides of AI Artistry
+                </h3>
+                <p class="aside-text body">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </li>
+              <li class="aside-element">
+                <h3 class="aside-subheader heading-s">
+                  Is VC Funding Drying Up?
+                </h3>
+                <p class="aside-text body">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </li>
+            </ul>
+          </aside>
+        </main>
+        <footer class="footer-articles">
+          <ul class="footer-list">
+            <li class="footer-element">
+              <img
+                src="/assets/images/image-retro-pcs.jpg"
+                alt="retro PCs"
+                class="footer-img"
+              />
+
+              <section class="footer-content">
+                <h4 class="footer-header heading-m">01</h4>
+                <h5 class="footer-subheader heading-xs" tabindex="0">
+                  Reviving Retro PCs
+                </h5>
+                <p class="footer-text">
+                  What happens when old PCs are given modern upgrades?
+                </p>
+              </section>
+            </li>
+            <li class="footer-element">
+              <img
+                src="/assets/images/image-top-laptops.jpg"
+                alt="Gaming laptop keyboard"
+                class="footer-img"
+              />
+
+              <section class="footer-content">
+                <h4 class="footer-header heading-m">02</h4>
+                <h5 class="footer-subheader heading-xs" tabindex="0">
+                  Top 10 Laptops of 2022
+                </h5>
+                <p>Our best picks for various needs and budgets.</p>
+              </section>
+            </li>
+            <li class="footer-element">
+              <img
+                src="/assets/images/image-gaming-growth.jpg"
+                alt="Gaming controller"
+                class="footer-img"
+              />
+
+              <section class="footer-content">
+                <h4 class="footer-header heading-m">03</h4>
+                <h5 class="footer-subheader heading-xs" tabindex="0">
+                  The Growth of Gaming
+                </h5>
+                <p class="footer-text">
+                  How the pandemic has sparked fresh opportunities.
+                </p>
+              </section>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
